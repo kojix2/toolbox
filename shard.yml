@@ -1,0 +1,16 @@
+name: toolbox
+version: 0.1.0
+
+authors:
+  - kojix2 <2xijok@gmail.com>
+
+description: |
+  Mini toolbox for kojix2
+
+targets:
+  underscore:
+    main: underscore.cr
+  camelize:
+    main: camelize.cr
+
+license: MIT

@@ -1,0 +1,1 @@
+ARGF.each_line { |i| puts i.lchop ARGV[0] }

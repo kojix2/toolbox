@@ -12,5 +12,9 @@ targets:
     main: src/underscore.cr
   camelize:
     main: src/camelize.cr
+  delete_prefix:
+    main: src/delete_prefix.cr
+  delete_suffix:
+    main: src/delete_suffix.cr
 
 license: MIT

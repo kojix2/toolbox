@@ -9,12 +9,12 @@ description: |
 
 targets:
   underscore:
-    main: src/underscore.cr
+    main: underscore.cr
   camelize:
-    main: src/camelize.cr
+    main: camelize.cr
   delete_prefix:
-    main: src/delete_prefix.cr
+    main: delete_prefix.cr
   delete_suffix:
-    main: src/delete_suffix.cr
+    main: delete_suffix.cr
 
 license: MIT

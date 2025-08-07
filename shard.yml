@@ -7,6 +7,12 @@ authors:
 description: |
   Mini toolbox for kojix2
 
+dependencies:
+  markd:
+    github: icyleaf/markd
+  reply:
+    github: I3oris/reply
+
 targets:
   underscore:
     main: underscore.cr
@@ -16,5 +22,7 @@ targets:
     main: delete_prefix.cr
   delete_suffix:
     main: delete_suffix.cr
+  astgraph:
+    main: astgraph.cr
 
 license: MIT

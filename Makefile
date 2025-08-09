@@ -1,9 +1,12 @@
 SOURCES := $(wildcard *.cr)
 TARGETS := $(patsubst %.cr,bin/%,$(SOURCES))
 
-.PHONY: all clean
+.PHONY: all clean format
 
-all: $(TARGETS)
+all: format $(TARGETS)
+
+format:
+	crystal tool format
 
 bin/%: %.cr | bin
 	crystal build $< -o $@

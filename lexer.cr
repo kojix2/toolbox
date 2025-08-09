@@ -6,7 +6,7 @@ code = ARGF.gets_to_end
 CSV.build(STDOUT, separator: '\t') do |csv|
   csv.row %w[
     type value
-    line col file
+    line col
     numkind
     keyword space newline
     doc
@@ -34,7 +34,7 @@ CSV.build(STDOUT, separator: '\t') do |csv|
       # Location information
       token.line_number.to_s,
       token.column_number.to_s,
-      token.filename.to_s,
+      # token.filename.to_s,
 
       # Type-specific information
       token.number_kind.to_s,

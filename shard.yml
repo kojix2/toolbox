@@ -13,16 +13,5 @@ dependencies:
   reply:
     github: I3oris/reply
 
-targets:
-  underscore:
-    main: underscore.cr
-  camelize:
-    main: camelize.cr
-  delete_prefix:
-    main: delete_prefix.cr
-  delete_suffix:
-    main: delete_suffix.cr
-  astgraph:
-    main: astgraph.cr
 
 license: MIT

@@ -26,7 +26,7 @@ jobs:
         run: crystal spec
       - name: Build executable
         run: shards build --release
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: toolbox-${{ matrix.os }}
           path: bin/*
